@@ -6,6 +6,9 @@ function validateSyntax()
     //Convert the input to lowercase
     input = input.toLowerCase();
 
+    //Validation
+    let regex = /^pet_\d{4}[a-z0-9]+$/;
+
 
     ocument.getElementById('result').innerText = result;
 }
