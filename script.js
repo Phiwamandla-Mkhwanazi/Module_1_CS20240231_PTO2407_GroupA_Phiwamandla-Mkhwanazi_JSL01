@@ -1,12 +1,13 @@
-function validateSyntax() {
+function validateSyntax() 
+{
     let input = document.getElementById('petInput').value;
-    // Validation logic goes here
-    let result = ''; // Placeholder for validation result
+    let result = '';
 
-    // TODO: Write your validation logic here
-        // Check if input starts with 'pet_' and followed by alphanumeric characters
+    //Convert the input to lowercase
+    input = input.toLowerCase();
 
-            document.getElementById('result').innerText = result;
+
+    ocument.getElementById('result').innerText = result;
 }
 
 
