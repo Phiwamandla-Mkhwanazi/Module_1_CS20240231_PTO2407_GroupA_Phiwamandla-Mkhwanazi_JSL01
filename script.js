@@ -13,7 +13,7 @@ function validateSyntax()
     let regex = /^pet_\d{4}[a-z0-9]+$/;
 
     //Comparison
-    result = regex.test(input)? "Valid Syntax" : "Invalid Syntax";
+    result = regex.test(input)? "Valid Syntax 🟢" : "Invalid Syntax 🔴";
 
   
     document.getElementById('result').innerText = result;
